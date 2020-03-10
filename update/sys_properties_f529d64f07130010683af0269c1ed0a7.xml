@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>The Sys ID of the default Approval Group for service catalog request items.&#13;
+This is for instances where the location-based approval group could not be determined.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_44813_svc_cat.default_sc_cat_approver_group</name>
+        <read_roles/>
+        <suffix>default_sc_cat_approver_group</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-06 19:14:25</sys_created_on>
+        <sys_id>f529d64f07130010683af0269c1ed0a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_44813_svc_cat.default_sc_cat_approver_group</sys_name>
+        <sys_package display_value="USASOC Service Catalog Customizations" source="x_44813_svc_cat">4078c57507130010683af0269c1ed021</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="USASOC Service Catalog Customizations">4078c57507130010683af0269c1ed021</sys_scope>
+        <sys_update_name>sys_properties_f529d64f07130010683af0269c1ed0a7</sys_update_name>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-06 19:18:07</sys_updated_on>
+        <type>short_string</type>
+        <value>d625dccec0a8016700a222a0f7900d06</value>
+        <write_roles>admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f529d64f07130010683af0269c1ed0a7"/>
+</record_update>
