@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"activities":{"f5a7282207d30010683af0269c1ed025":"e1a7e02207d30010683af0269c1ed0fc","31a7282207d30010683af0269c1ed01d":"65a7e02207d30010683af0269c1ed0fc","f1a7282207d30010683af0269c1ed01f":"e9a7e02207d30010683af0269c1ed0fc","35a7282207d30010683af0269c1ed01a":"65a7e02207d30010683af0269c1ed0fc","b5a7282207d30010683af0269c1ed01c":"e9a7e02207d30010683af0269c1ed0fc","e5a7282207d30010683af0269c1ed016":"e1a7e02207d30010683af0269c1ed0fc","61a7282207d30010683af0269c1ed017":"e1a7e02207d30010683af0269c1ed0fc","a5a7e02207d30010683af0269c1ed0fd":"e1a7e02207d30010683af0269c1ed0fc","f5a7282207d30010683af0269c1ed020":"e9a7e02207d30010683af0269c1ed0fc"},"stages":{"65a7e02207d30010683af0269c1ed0fc":{"order":200,"duration":"","stageId":"65a7e02207d30010683af0269c1ed0fc","name":"Request Approved","value":"request_approved"},"e1a7e02207d30010683af0269c1ed0fc":{"order":100,"duration":"4 Days","stageId":"e1a7e02207d30010683af0269c1ed0fc","name":"Waiting for Approval","value":"waiting_for_approval"},"e9a7e02207d30010683af0269c1ed0fc":{"order":600,"duration":"","stageId":"e9a7e02207d30010683af0269c1ed0fc","name":"Request Cancelled","value":"canceled"}},"ends":["fda7282207d30010683af0269c1ed01f"]}</activity_stages>
+        <activity_stages>{"activities":{"ac54803007e30010683af0269c1ed082":"1454803007e30010683af0269c1ed012","a454803007e30010683af0269c1ed087":"1054803007e30010683af0269c1ed012","2c54803007e30010683af0269c1ed019":"1054803007e30010683af0269c1ed012","9454803007e30010683af0269c1ed014":"9854803007e30010683af0269c1ed011","a054803007e30010683af0269c1ed018":"1054803007e30010683af0269c1ed012","a854803007e30010683af0269c1ed089":"1054803007e30010683af0269c1ed012","a054803007e30010683af0269c1ed015":"9854803007e30010683af0269c1ed011","2054803007e30010683af0269c1ed088":"1454803007e30010683af0269c1ed012","6c54803007e30010683af0269c1ed088":"1454803007e30010683af0269c1ed012"},"stages":{"1454803007e30010683af0269c1ed012":{"duration":"","order":600,"stageId":"1454803007e30010683af0269c1ed012","name":"Request Cancelled","value":"canceled"},"1054803007e30010683af0269c1ed012":{"duration":"4 Days","order":100,"stageId":"1054803007e30010683af0269c1ed012","name":"Waiting for Approval","value":"waiting_for_approval"},"9854803007e30010683af0269c1ed011":{"duration":"","order":200,"stageId":"9854803007e30010683af0269c1ed011","name":"Request Approved","value":"request_approved"}},"ends":["a454803007e30010683af0269c1ed08a"],"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description>Generates approval tasks according to location of requestor</description>
-        <expected_sequences>3da7282207d30010683af0269c1ed01d,35a7282207d30010683af0269c1ed021,bda7282207d30010683af0269c1ed023,35a7282207d30010683af0269c1ed01a,fda7282207d30010683af0269c1ed01f</expected_sequences>
+        <expected_sequences>2854803007e30010683af0269c1ed017,2c54803007e30010683af0269c1ed015,ac54803007e30010683af0269c1ed085,a054803007e30010683af0269c1ed015,a454803007e30010683af0269c1ed08a</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>3da7282207d30010683af0269c1ed01d,35a7282207d30010683af0269c1ed021,bda7282207d30010683af0269c1ed023,fda7282207d30010683af0269c1ed01f,bda7282207d30010683af0269c1ed01a,b5a7282207d30010683af0269c1ed01e,71a7282207d30010683af0269c1ed023,e5a7282207d30010683af0269c1ed016,35a7282207d30010683af0269c1ed01a,f5a7282207d30010683af0269c1ed020,f1a7282207d30010683af0269c1ed01f,b5a7282207d30010683af0269c1ed01c,f5a7282207d30010683af0269c1ed025,21a7282207d30010683af0269c1ed019,a5a7e02207d30010683af0269c1ed0fd,ada7282207d30010683af0269c1ed017,31a7282207d30010683af0269c1ed01d,61a7282207d30010683af0269c1ed017</full_sequences>
+        <full_sequences>2854803007e30010683af0269c1ed017,2c54803007e30010683af0269c1ed015,ac54803007e30010683af0269c1ed085,a454803007e30010683af0269c1ed08a,6454803007e30010683af0269c1ed084,2854803007e30010683af0269c1ed083,ec54803007e30010683af0269c1ed018,a454803007e30010683af0269c1ed087,a054803007e30010683af0269c1ed015,6c54803007e30010683af0269c1ed088,2054803007e30010683af0269c1ed088,ac54803007e30010683af0269c1ed082,a854803007e30010683af0269c1ed089,5c54803007e30010683af0269c1ed012,2c54803007e30010683af0269c1ed019,e454803007e30010683af0269c1ed081,9454803007e30010683af0269c1ed014,a054803007e30010683af0269c1ed018</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>USASOC SC Location Based Approval</name>
@@ -27,16 +27,16 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">3da7282207d30010683af0269c1ed01d</start>
+        <start display_value="Begin">2854803007e30010683af0269c1ed017</start>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a1a7e02207d30010683af0269c1ed0fb</sys_id>
-        <sys_mod_count>59</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:44:14</sys_updated_on>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>5854803007e30010683af0269c1ed010</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>abraham.lincoln</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:56:12</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="USASOC SC Location Based Approval">2b76b24a07130010683af0269c1ed0d0</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -68,91 +68,91 @@
         <ola>1970-02-12 00:00:00</ola>
         <order>400</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>69a7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1c54803007e30010683af0269c1ed011</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>backordered</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>600</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e9a7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1454803007e30010683af0269c1ed012</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>canceled</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Completed</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>700</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>eda7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>9454803007e30010683af0269c1ed012</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfillment</name>
         <ola>1970-01-07 00:00:00</ola>
         <order>500</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>6da7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>9c54803007e30010683af0269c1ed011</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>fulfillment</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Procurement</name>
         <ola>1970-01-05 00:00:00</ola>
         <order>300</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e5a7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>9054803007e30010683af0269c1ed012</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>procurement</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Approved</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>200</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>65a7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>9854803007e30010683af0269c1ed011</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>request_approved</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Waiting for Approval</name>
         <ola>1970-01-05 00:00:00</ola>
         <order>100</order>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7e02207d30010683af0269c1ed0fc</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1054803007e30010683af0269c1ed012</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>waiting_for_approval</value>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Log Trace Message">c13ed50d7f00000101ac0aa8e373ea73</activity_definition>
@@ -168,23 +168,23 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Cancelled">e9a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Request Cancelled">1454803007e30010683af0269c1ed012</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed01c</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed082</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>15</x>
         <y>662</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b5a7282207d30010683af0269c1ed01c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ac54803007e30010683af0269c1ed082"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Already rejected">b5a7282207d30010683af0269c1ed01c</activity>
+        <activity display_value="Already rejected">ac54803007e30010683af0269c1ed082</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -198,11 +198,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed01c</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed083</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Switch">f84eda480a0a3c1800a6fa8c7badf346</activity_definition>
@@ -220,105 +220,105 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed023</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:07</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>355</x>
         <y>16</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=bda7282207d30010683af0269c1ed023"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ac54803007e30010683af0269c1ed085"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed023</document_key>
+        <document_key>ac54803007e30010683af0269c1ed085</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>approval</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed023</document_key>
+        <document_key>ac54803007e30010683af0269c1ed085</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed023</document_key>
+        <document_key>ac54803007e30010683af0269c1ed085</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed023</document_key>
+        <document_key>ac54803007e30010683af0269c1ed085</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed023</document_key>
+        <document_key>ac54803007e30010683af0269c1ed085</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed023</document_key>
+        <document_key>ac54803007e30010683af0269c1ed085</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>approval</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Approval Status">bda7282207d30010683af0269c1ed023</activity>
+        <activity display_value="Approval Status">ac54803007e30010683af0269c1ed085</activity>
         <condition>activity.result == 'approved'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -332,14 +332,14 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed087</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Approval Status">bda7282207d30010683af0269c1ed023</activity>
+        <activity display_value="Approval Status">ac54803007e30010683af0269c1ed085</activity>
         <condition>activity.result == 'not requested'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -353,14 +353,14 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b9a7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Approval Status">bda7282207d30010683af0269c1ed023</activity>
+        <activity display_value="Approval Status">ac54803007e30010683af0269c1ed085</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -374,14 +374,14 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed025</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Approval Status">bda7282207d30010683af0269c1ed023</activity>
+        <activity display_value="Approval Status">ac54803007e30010683af0269c1ed085</activity>
         <condition>activity.result == 'requested'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -395,11 +395,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed024</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed086</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval - Group">354e911f0a0a029a00e6a0e6ad74206f</activity_definition>
@@ -415,46 +415,46 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Waiting for Approval">e1a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Waiting for Approval">1054803007e30010683af0269c1ed012</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a5a7e02207d30010683af0269c1ed0fd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:39</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>1066</x>
         <y>1</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=a5a7e02207d30010683af0269c1ed0fd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2c54803007e30010683af0269c1ed019"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>first_any</value>
         <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
 //&#13;
 // This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
@@ -490,452 +490,452 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>29a7e02207d30010683af0269c1ed0ff</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>3bf843520a0a0b52001a245ec6ae7d52</value>
         <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>2da7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>65a7e02207d30010683af0269c1ed0ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>69a7282207d30010683af0269c1ed015</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>69a7e02207d30010683af0269c1ed0fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value>user_specified_timezone</value>
-        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>6da7282207d30010683af0269c1ed014</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>6da7e02207d30010683af0269c1ed0fd</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>1</value>
         <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>1100</order>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a1a7e02207d30010683af0269c1ed0ff</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
-        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed07e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value>user_specified_timezone</value>
+        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6854803007e30010683af0269c1ed080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>115</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a5a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>relative_duration</value>
         <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a5a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a9a7282207d30010683af0269c1ed014</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>696fc988db64130093da55d0cf9619e0</value>
         <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a9a7e02207d30010683af0269c1ed0fd</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed019</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>user_specified_schedule</value>
         <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed07e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>var answer = [];&#13;
 answer.push(scratchpad.approval_group);</value>
         <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e9a7e02207d30010683af0269c1ed0ff</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>eda7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e854803007e30010683af0269c1ed07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>reject</value>
         <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>65a7e02207d30010683af0269c1ed0ff</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>first_any</value>
         <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a9a7e02207d30010683af0269c1ed0fd</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed019</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>user_specified_schedule</value>
         <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>115</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a5a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>relative_duration</value>
         <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>120</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>69a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>user_specified_timezone</value>
         <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a5a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>eda7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e854803007e30010683af0269c1ed07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>reject</value>
         <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>6da7282207d30010683af0269c1ed014</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a9a7282207d30010683af0269c1ed014</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>696fc988db64130093da55d0cf9619e0</value>
         <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a1a7e02207d30010683af0269c1ed0ff</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e9a7e02207d30010683af0269c1ed0ff</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>69a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed07f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>29a7e02207d30010683af0269c1ed0ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>3bf843520a0a0b52001a245ec6ae7d52</value>
         <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6854803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed01a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>2da7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7e02207d30010683af0269c1ed0fe</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.&#13;
 //&#13;
 // This script is responsible for setting the approval state for each group that is part of this approval activity before&#13;
@@ -971,35 +971,35 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>6da7e02207d30010683af0269c1ed0fd</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed01a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>1</value>
         <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a5a7e02207d30010683af0269c1ed0fd</document_key>
+        <document_key>2c54803007e30010683af0269c1ed019</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>var answer = [];&#13;
 answer.push(scratchpad.approval_group);</value>
         <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Approve Request">a5a7e02207d30010683af0269c1ed0fd</activity>
+        <activity display_value="Approve Request">2c54803007e30010683af0269c1ed019</activity>
         <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
         <condition_default display_value="Approved">586cdc4c0a0a0b5c00888cdfcb07778b</condition_default>
         <condition_type>standard</condition_type>
@@ -1013,14 +1013,14 @@ answer.push(scratchpad.approval_group);</value>
         <short_description>Approval request was approved</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>eda7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Approve Request">a5a7e02207d30010683af0269c1ed0fd</activity>
+        <activity display_value="Approve Request">2c54803007e30010683af0269c1ed019</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default display_value="Rejected">586d9d960a0a0b5c00509314d15d50d8</condition_default>
         <condition_type>standard</condition_type>
@@ -1034,11 +1034,11 @@ answer.push(scratchpad.approval_group);</value>
         <short_description>Approval request was rejected</short_description>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>6da7282207d30010683af0269c1ed015</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -1056,21 +1056,21 @@ answer.push(scratchpad.approval_group);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed01d</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed017</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=3da7282207d30010683af0269c1ed01d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2854803007e30010683af0269c1ed017"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">3da7282207d30010683af0269c1ed01d</activity>
+        <activity display_value="Begin">2854803007e30010683af0269c1ed017</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1084,11 +1084,11 @@ answer.push(scratchpad.approval_group);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>fda7282207d30010683af0269c1ed01d</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e854803007e30010683af0269c1ed017</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1104,32 +1104,32 @@ answer.push(scratchpad.approval_group);</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Waiting for Approval">e1a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Waiting for Approval">1054803007e30010683af0269c1ed012</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f5a7282207d30010683af0269c1ed025</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed089</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:21</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:53:43</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>824</x>
         <y>0</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f5a7282207d30010683af0269c1ed025"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a854803007e30010683af0269c1ed089"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f5a7282207d30010683af0269c1ed025</document_key>
+        <document_key>a854803007e30010683af0269c1ed089</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed025</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed089</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:53:43</sys_updated_on>
         <value>(function(current, scratchpad) {&#13;
 	var gr = (new x_44813_usasoc_cst.TaskHelper(this._req_item)).getDefaultApprovalGroupByCallerLocation();&#13;
 	if (gs.nil(gr)) {&#13;
@@ -1140,20 +1140,20 @@ answer.push(scratchpad.approval_group);</value>
 		else&#13;
 			scratchpad.approval_group = '' + gr.sys_id;&#13;
 	}&#13;
-})(current, workflow.scratchpad);</value>
+})(current, workflow.scratchpad());</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f5a7282207d30010683af0269c1ed025</document_key>
+        <document_key>a854803007e30010683af0269c1ed089</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed025</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed089</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:53:43</sys_updated_on>
         <value>(function(current, scratchpad) {&#13;
 	var gr = (new x_44813_usasoc_cst.TaskHelper(this._req_item)).getDefaultApprovalGroupByCallerLocation();&#13;
 	if (gs.nil(gr)) {&#13;
@@ -1164,11 +1164,11 @@ answer.push(scratchpad.approval_group);</value>
 		else&#13;
 			scratchpad.approval_group = '' + gr.sys_id;&#13;
 	}&#13;
-})(current, workflow.scratchpad);</value>
+})(current, workflow.scratchpad());</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Calculate approval group">f5a7282207d30010683af0269c1ed025</activity>
+        <activity display_value="Calculate approval group">a854803007e30010683af0269c1ed089</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1182,11 +1182,11 @@ answer.push(scratchpad.approval_group);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>7da7282207d30010683af0269c1ed025</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed08a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
@@ -1202,51 +1202,51 @@ answer.push(scratchpad.approval_group);</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Cancelled">e9a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Request Cancelled">1454803007e30010683af0269c1ed012</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed01f</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>311</x>
         <y>507</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f1a7282207d30010683af0269c1ed01f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2054803007e30010683af0269c1ed088"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f1a7282207d30010683af0269c1ed01f</document_key>
+        <document_key>2054803007e30010683af0269c1ed088</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed01f</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a054803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>moot</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f1a7282207d30010683af0269c1ed01f</document_key>
+        <document_key>2054803007e30010683af0269c1ed088</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed01f</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a054803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>moot</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Disregard approvals">f1a7282207d30010683af0269c1ed01f</activity>
+        <activity display_value="Disregard approvals">2054803007e30010683af0269c1ed088</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1260,11 +1260,11 @@ answer.push(scratchpad.approval_group);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed01f</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -1282,19 +1282,19 @@ answer.push(scratchpad.approval_group);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>fda7282207d30010683af0269c1ed01f</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed08a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>481</x>
         <y>771</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=fda7282207d30010683af0269c1ed01f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a454803007e30010683af0269c1ed08a"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -1311,30 +1311,58 @@ answer.push(scratchpad.approval_group);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7282207d30010683af0269c1ed019</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>5c54803007e30010683af0269c1ed012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>945</x>
         <y>161</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=21a7282207d30010683af0269c1ed019"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5c54803007e30010683af0269c1ed012"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>21a7282207d30010683af0269c1ed019</document_key>
+        <document_key>5c54803007e30010683af0269c1ed012</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1454803007e30010683af0269c1ed013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5c54803007e30010683af0269c1ed012</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>5054803007e30010683af0269c1ed013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5c54803007e30010683af0269c1ed012</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed019</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>d454803007e30010683af0269c1ed013</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>answer = ifScript();&#13;
 function ifScript() {&#13;
 	if (gs.nil(scratchpad.approval_group))&#13;
@@ -1345,71 +1373,43 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>21a7282207d30010683af0269c1ed019</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed019</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>21a7282207d30010683af0269c1ed019</document_key>
+        <document_key>5c54803007e30010683af0269c1ed012</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b1a7282207d30010683af0269c1ed019</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>5054803007e30010683af0269c1ed013</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>21a7282207d30010683af0269c1ed019</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b1a7282207d30010683af0269c1ed019</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>21a7282207d30010683af0269c1ed019</document_key>
+        <document_key>5c54803007e30010683af0269c1ed012</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed019</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1454803007e30010683af0269c1ed013</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>21a7282207d30010683af0269c1ed019</document_key>
+        <document_key>5c54803007e30010683af0269c1ed012</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed019</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>d454803007e30010683af0269c1ed013</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>answer = ifScript();&#13;
 function ifScript() {&#13;
 	if (gs.nil(scratchpad.approval_group))&#13;
@@ -1419,7 +1419,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Has approval group">21a7282207d30010683af0269c1ed019</activity>
+        <activity display_value="Has approval group">5c54803007e30010683af0269c1ed012</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -1433,14 +1433,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed019</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>5c54803007e30010683af0269c1ed013</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Has approval group">21a7282207d30010683af0269c1ed019</activity>
+        <activity display_value="Has approval group">5c54803007e30010683af0269c1ed012</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -1454,11 +1454,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed019</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>d854803007e30010683af0269c1ed013</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Manual Approvals">533e39330a6a803f54a9619525b0a7e7</activity_definition>
@@ -1476,77 +1476,77 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>ada7282207d30010683af0269c1ed017</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:53</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>780</x>
         <y>321</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=ada7282207d30010683af0269c1ed017"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e454803007e30010683af0269c1ed081"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>ada7282207d30010683af0269c1ed017</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7282207d30010683af0269c1ed018</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value>first</value>
-        <variable display_value="">5342da310a6a803f3a91377506c2de44</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>ada7282207d30010683af0269c1ed017</document_key>
+        <document_key>e454803007e30010683af0269c1ed081</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7282207d30010683af0269c1ed018</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed082</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>reject</value>
         <variable display_value="">53507aeb0a6a803f6af60e692fc4bbad</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>ada7282207d30010683af0269c1ed017</document_key>
+        <document_key>e454803007e30010683af0269c1ed081</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>21a7282207d30010683af0269c1ed018</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed081</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>first</value>
         <variable display_value="">5342da310a6a803f3a91377506c2de44</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>ada7282207d30010683af0269c1ed017</document_key>
+        <document_key>e454803007e30010683af0269c1ed081</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value>first</value>
+        <variable display_value="">5342da310a6a803f3a91377506c2de44</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e454803007e30010683af0269c1ed081</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7282207d30010683af0269c1ed018</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed082</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>reject</value>
         <variable display_value="">53507aeb0a6a803f6af60e692fc4bbad</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Manual approval">ada7282207d30010683af0269c1ed017</activity>
+        <activity display_value="Manual approval">e454803007e30010683af0269c1ed081</activity>
         <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
         <condition_default display_value="Approved">534255c00a6a803f6b72377ca0a6e88b</condition_default>
         <condition_type>standard</condition_type>
@@ -1560,14 +1560,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>69a7282207d30010683af0269c1ed018</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed082</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Manual approval">ada7282207d30010683af0269c1ed017</activity>
+        <activity display_value="Manual approval">e454803007e30010683af0269c1ed081</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default display_value="Rejected">534298e40a6a803f11dcacc7ee901ab9</condition_default>
         <condition_type>standard</condition_type>
@@ -1581,11 +1581,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e5a7282207d30010683af0269c1ed018</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed082</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
@@ -1601,51 +1601,51 @@ function ifScript() {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Approved">65a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Request Approved">9854803007e30010683af0269c1ed011</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed01d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>9454803007e30010683af0269c1ed014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:43:12</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>1279</x>
         <y>530</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=31a7282207d30010683af0269c1ed01d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9454803007e30010683af0269c1ed014"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>31a7282207d30010683af0269c1ed01d</document_key>
+        <document_key>9454803007e30010683af0269c1ed014</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b1a7282207d30010683af0269c1ed01d</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1854803007e30010683af0269c1ed014</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>approved</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>31a7282207d30010683af0269c1ed01d</document_key>
+        <document_key>9454803007e30010683af0269c1ed014</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b1a7282207d30010683af0269c1ed01d</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>1854803007e30010683af0269c1ed014</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>approved</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Mark as approved">31a7282207d30010683af0269c1ed01d</activity>
+        <activity display_value="Mark as approved">9454803007e30010683af0269c1ed014</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1659,89 +1659,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed01d</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed014</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>14</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Mark as rejected</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage display_value="Waiting for Approval">e1a7e02207d30010683af0269c1ed0fc</stage>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>61a7282207d30010683af0269c1ed017</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:24</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
-        <x>805</x>
-        <y>488</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=61a7282207d30010683af0269c1ed017"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>61a7282207d30010683af0269c1ed017</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7282207d30010683af0269c1ed017</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value>rejected</value>
-        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>61a7282207d30010683af0269c1ed017</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e1a7282207d30010683af0269c1ed017</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value>rejected</value>
-        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Mark as rejected">61a7282207d30010683af0269c1ed017</activity>
-        <condition>true</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e5a7282207d30010683af0269c1ed017</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
@@ -1757,51 +1679,51 @@ function ifScript() {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Cancelled">e9a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Request Cancelled">1454803007e30010683af0269c1ed012</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f5a7282207d30010683af0269c1ed020</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>278</x>
         <y>290</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f5a7282207d30010683af0269c1ed020"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6c54803007e30010683af0269c1ed088"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f5a7282207d30010683af0269c1ed020</document_key>
+        <document_key>6c54803007e30010683af0269c1ed088</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed020</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>rejected</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f5a7282207d30010683af0269c1ed020</document_key>
+        <document_key>6c54803007e30010683af0269c1ed088</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed020</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>rejected</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Mark as rejected">f5a7282207d30010683af0269c1ed020</activity>
+        <activity display_value="Mark as rejected">6c54803007e30010683af0269c1ed088</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1815,11 +1737,89 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>7da7282207d30010683af0269c1ed020</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed089</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Mark as rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Waiting for Approval">1054803007e30010683af0269c1ed012</stage>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a054803007e30010683af0269c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
+        <x>805</x>
+        <y>488</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a054803007e30010683af0269c1ed018"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a054803007e30010683af0269c1ed018</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a054803007e30010683af0269c1ed018</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Mark as rejected">a054803007e30010683af0269c1ed018</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
@@ -1837,49 +1837,49 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed01e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:09</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>611</x>
         <y>3</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b5a7282207d30010683af0269c1ed01e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2854803007e30010683af0269c1ed083"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b5a7282207d30010683af0269c1ed01e</document_key>
+        <document_key>2854803007e30010683af0269c1ed083</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed01e</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed083</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>requested</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b5a7282207d30010683af0269c1ed01e</document_key>
+        <document_key>2854803007e30010683af0269c1ed083</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed01e</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed083</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>requested</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Mark as requested">b5a7282207d30010683af0269c1ed01e</activity>
+        <activity display_value="Mark as requested">2854803007e30010683af0269c1ed083</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1893,11 +1893,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed01e</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed083</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Log Trace Message">c13ed50d7f00000101ac0aa8e373ea73</activity_definition>
@@ -1913,23 +1913,23 @@ function ifScript() {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Waiting for Approval">e1a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Waiting for Approval">1054803007e30010683af0269c1ed012</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>e5a7282207d30010683af0269c1ed016</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:12</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>566</x>
         <y>368</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=e5a7282207d30010683af0269c1ed016"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a454803007e30010683af0269c1ed087"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Rejected">e5a7282207d30010683af0269c1ed016</activity>
+        <activity display_value="Rejected">a454803007e30010683af0269c1ed087</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1943,11 +1943,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>a9a7282207d30010683af0269c1ed016</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6854803007e30010683af0269c1ed087</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Log Trace Message">c13ed50d7f00000101ac0aa8e373ea73</activity_definition>
@@ -1963,23 +1963,23 @@ function ifScript() {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Approved">65a7e02207d30010683af0269c1ed0fc</stage>
+        <stage display_value="Request Approved">9854803007e30010683af0269c1ed011</stage>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>35a7282207d30010683af0269c1ed01a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a054803007e30010683af0269c1ed015</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>213</x>
         <y>640</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=35a7282207d30010683af0269c1ed01a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a054803007e30010683af0269c1ed015"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Request already approved">35a7282207d30010683af0269c1ed01a</activity>
+        <activity display_value="Request already approved">a054803007e30010683af0269c1ed015</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1993,11 +1993,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f5a7282207d30010683af0269c1ed01a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed015</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -2015,49 +2015,49 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>71a7282207d30010683af0269c1ed023</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:15</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>663</x>
         <y>194</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=71a7282207d30010683af0269c1ed023"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec54803007e30010683af0269c1ed018"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>71a7282207d30010683af0269c1ed023</document_key>
+        <document_key>ec54803007e30010683af0269c1ed018</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed023</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed019</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>state=-5^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>71a7282207d30010683af0269c1ed023</document_key>
+        <document_key>ec54803007e30010683af0269c1ed018</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed023</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed019</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>state=-5^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set as pending">71a7282207d30010683af0269c1ed023</activity>
+        <activity display_value="Set as pending">ec54803007e30010683af0269c1ed018</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2071,11 +2071,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f5a7282207d30010683af0269c1ed023</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed019</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Switch">f84eda480a0a3c1800a6fa8c7badf346</activity_definition>
@@ -2093,105 +2093,105 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>35a7282207d30010683af0269c1ed021</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:42:04</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>115</x>
         <y>108</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=35a7282207d30010683af0269c1ed021"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2c54803007e30010683af0269c1ed015"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>35a7282207d30010683af0269c1ed021</document_key>
+        <document_key>2c54803007e30010683af0269c1ed015</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed021</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>35a7282207d30010683af0269c1ed021</document_key>
+        <document_key>2c54803007e30010683af0269c1ed015</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed021</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>35a7282207d30010683af0269c1ed021</document_key>
+        <document_key>2c54803007e30010683af0269c1ed015</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed021</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed015</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>state</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>35a7282207d30010683af0269c1ed021</document_key>
+        <document_key>2c54803007e30010683af0269c1ed015</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>79a7282207d30010683af0269c1ed021</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>35a7282207d30010683af0269c1ed021</document_key>
+        <document_key>2c54803007e30010683af0269c1ed015</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed021</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>35a7282207d30010683af0269c1ed021</document_key>
+        <document_key>2c54803007e30010683af0269c1ed015</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed021</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed015</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>state</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Task Status">35a7282207d30010683af0269c1ed021</activity>
+        <activity display_value="Task Status">2c54803007e30010683af0269c1ed015</activity>
         <condition>activity.result == '3'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2205,14 +2205,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b1a7282207d30010683af0269c1ed022</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Task Status">35a7282207d30010683af0269c1ed021</activity>
+        <activity display_value="Task Status">2c54803007e30010683af0269c1ed015</activity>
         <condition>activity.result == '4'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2226,14 +2226,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed022</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Task Status">35a7282207d30010683af0269c1ed021</activity>
+        <activity display_value="Task Status">2c54803007e30010683af0269c1ed015</activity>
         <condition>activity.result == '7'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2247,14 +2247,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b9a7282207d30010683af0269c1ed022</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a054803007e30010683af0269c1ed017</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Task Status">35a7282207d30010683af0269c1ed021</activity>
+        <activity display_value="Task Status">2c54803007e30010683af0269c1ed015</activity>
         <condition>activity.result == '1'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2268,14 +2268,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>35a7282207d30010683af0269c1ed022</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Task Status">35a7282207d30010683af0269c1ed021</activity>
+        <activity display_value="Task Status">2c54803007e30010683af0269c1ed015</activity>
         <condition>activity.result == '-5'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2289,14 +2289,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed022</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed016</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Task Status">35a7282207d30010683af0269c1ed021</activity>
+        <activity display_value="Task Status">2c54803007e30010683af0269c1ed015</activity>
         <condition>activity.result == '2'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2310,11 +2310,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed022</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2054803007e30010683af0269c1ed017</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Switch">f84eda480a0a3c1800a6fa8c7badf346</activity_definition>
@@ -2332,105 +2332,105 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed01a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed084</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
         <x>43</x>
         <y>310</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=bda7282207d30010683af0269c1ed01a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6454803007e30010683af0269c1ed084"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed01a</document_key>
+        <document_key>6454803007e30010683af0269c1ed084</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value/>
+        <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6454803007e30010683af0269c1ed084</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <value>field</value>
+        <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6454803007e30010683af0269c1ed084</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed084</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>approval</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed01a</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed01b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value/>
-        <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed01a</document_key>
+        <document_key>6454803007e30010683af0269c1ed084</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed084</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>field</value>
         <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed01a</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed01b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <value>field</value>
-        <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed01a</document_key>
+        <document_key>6454803007e30010683af0269c1ed084</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b5a7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed084</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value/>
         <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>bda7282207d30010683af0269c1ed01a</document_key>
+        <document_key>6454803007e30010683af0269c1ed084</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed084</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
         <value>approval</value>
         <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</activity>
+        <activity display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</activity>
         <condition>activity.result == 'approved'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2444,14 +2444,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed085</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</activity>
+        <activity display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</activity>
         <condition>activity.result == 'not requested'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2465,14 +2465,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b9a7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed085</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</activity>
+        <activity display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2486,14 +2486,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed01c</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed085</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</activity>
+        <activity display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</activity>
         <condition>activity.result == 'requested'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2507,366 +2507,366 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed01b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed085</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">6da7282207d30010683af0269c1ed015</condition>
-        <from display_value="Approve Request">a5a7e02207d30010683af0269c1ed0fd</from>
+        <condition display_value="Always">e854803007e30010683af0269c1ed017</condition>
+        <from display_value="Begin">2854803007e30010683af0269c1ed017</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:41:03</sys_created_on>
-        <sys_id>28c7a42207d30010683af0269c1ed0c6</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2454803007e30010683af0269c1ed08d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:41:03</sys_updated_on>
-        <to display_value="Mark as rejected">61a7282207d30010683af0269c1ed017</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Task Status">2c54803007e30010683af0269c1ed015</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Closed Complete">b1a7282207d30010683af0269c1ed022</condition>
-        <from display_value="Task Status">35a7282207d30010683af0269c1ed021</from>
+        <condition display_value="Always">2054803007e30010683af0269c1ed08a</condition>
+        <from display_value="Calculate approval group">a854803007e30010683af0269c1ed089</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed028</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2854803007e30010683af0269c1ed08e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Has approval group">5c54803007e30010683af0269c1ed012</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f5a7282207d30010683af0269c1ed023</condition>
-        <from display_value="Set as pending">71a7282207d30010683af0269c1ed023</from>
+        <condition display_value="Always">6054803007e30010683af0269c1ed083</condition>
+        <from display_value="Already rejected">ac54803007e30010683af0269c1ed082</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>31a7282207d30010683af0269c1ed02a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed08b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Calculate approval group">f5a7282207d30010683af0269c1ed025</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Open">35a7282207d30010683af0269c1ed022</condition>
-        <from display_value="Task Status">35a7282207d30010683af0269c1ed021</from>
+        <condition display_value="Rejected">2854803007e30010683af0269c1ed082</condition>
+        <from display_value="Manual approval">e454803007e30010683af0269c1ed081</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Approval Status">bda7282207d30010683af0269c1ed023</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Mark as rejected">a054803007e30010683af0269c1ed018</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7da7282207d30010683af0269c1ed025</condition>
-        <from display_value="Calculate approval group">f5a7282207d30010683af0269c1ed025</from>
+        <condition display_value="No">5c54803007e30010683af0269c1ed013</condition>
+        <from display_value="Has approval group">5c54803007e30010683af0269c1ed012</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed028</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>2c54803007e30010683af0269c1ed08d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Has approval group">21a7282207d30010683af0269c1ed019</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Manual approval">e454803007e30010683af0269c1ed081</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">fda7282207d30010683af0269c1ed01d</condition>
-        <from display_value="Begin">3da7282207d30010683af0269c1ed01d</from>
+        <condition display_value="Open">a854803007e30010683af0269c1ed016</condition>
+        <from display_value="Task Status">2c54803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed029</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Task Status">35a7282207d30010683af0269c1ed021</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Approval Status">ac54803007e30010683af0269c1ed085</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">3da7282207d30010683af0269c1ed019</condition>
-        <from display_value="Has approval group">21a7282207d30010683af0269c1ed019</from>
+        <condition display_value="Always">6854803007e30010683af0269c1ed087</condition>
+        <from display_value="Rejected">a454803007e30010683af0269c1ed087</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>39a7282207d30010683af0269c1ed02a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed08d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Approve Request">a5a7e02207d30010683af0269c1ed0fd</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Closed Incomplete">31a7282207d30010683af0269c1ed022</condition>
-        <from display_value="Task Status">35a7282207d30010683af0269c1ed021</from>
+        <condition display_value="Requested">2c54803007e30010683af0269c1ed086</condition>
+        <from display_value="Approval Status">ac54803007e30010683af0269c1ed085</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed08e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Set as pending">ec54803007e30010683af0269c1ed018</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">e5a7282207d30010683af0269c1ed018</condition>
-        <from display_value="Manual approval">ada7282207d30010683af0269c1ed017</from>
+        <condition display_value="Not Yet Requested">6454803007e30010683af0269c1ed085</condition>
+        <from display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>3da7282207d30010683af0269c1ed02b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6054803007e30010683af0269c1ed090</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Mark as rejected">61a7282207d30010683af0269c1ed017</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Mark as rejected">6c54803007e30010683af0269c1ed088</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">bda7282207d30010683af0269c1ed01b</condition>
-        <from display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</from>
+        <condition display_value="Work in Progress">2054803007e30010683af0269c1ed017</condition>
+        <from display_value="Task Status">2c54803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>71a7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Request already approved">35a7282207d30010683af0269c1ed01a</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Approval Status">ac54803007e30010683af0269c1ed085</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f5a7282207d30010683af0269c1ed01a</condition>
-        <from display_value="Request already approved">35a7282207d30010683af0269c1ed01a</from>
+        <condition display_value="Not Yet Requested">ac54803007e30010683af0269c1ed086</condition>
+        <from display_value="Approval Status">ac54803007e30010683af0269c1ed085</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>71a7282207d30010683af0269c1ed029</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed08e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Mark as requested">2854803007e30010683af0269c1ed083</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">bda7282207d30010683af0269c1ed024</condition>
-        <from display_value="Approval Status">bda7282207d30010683af0269c1ed023</from>
+        <condition display_value="Rejected">6c54803007e30010683af0269c1ed080</condition>
+        <from display_value="Approve Request">2c54803007e30010683af0269c1ed019</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>71a7282207d30010683af0269c1ed02b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6454803007e30010683af0269c1ed08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Request already approved">35a7282207d30010683af0269c1ed01a</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Mark as rejected">a054803007e30010683af0269c1ed018</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Requested">3da7282207d30010683af0269c1ed01b</condition>
-        <from display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</from>
+        <condition display_value="Always">a454803007e30010683af0269c1ed088</condition>
+        <from display_value="Disregard approvals">2054803007e30010683af0269c1ed088</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6854803007e30010683af0269c1ed08b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Disregard approvals">f1a7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b5a7282207d30010683af0269c1ed01d</condition>
-        <from display_value="Mark as approved">31a7282207d30010683af0269c1ed01d</from>
+        <condition display_value="Pending">2c54803007e30010683af0269c1ed016</condition>
+        <from display_value="Task Status">2c54803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed028</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6854803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Approval Status">ac54803007e30010683af0269c1ed085</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7da7282207d30010683af0269c1ed020</condition>
-        <from display_value="Mark as rejected">f5a7282207d30010683af0269c1ed020</from>
+        <condition display_value="Approved">e454803007e30010683af0269c1ed085</condition>
+        <from display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed029</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>6c54803007e30010683af0269c1ed08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Request already approved">a054803007e30010683af0269c1ed015</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Requested">3da7282207d30010683af0269c1ed024</condition>
-        <from display_value="Approval Status">bda7282207d30010683af0269c1ed023</from>
+        <condition display_value="Always">2854803007e30010683af0269c1ed018</condition>
+        <from display_value="Mark as rejected">a054803007e30010683af0269c1ed018</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>75a7282207d30010683af0269c1ed02b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a054803007e30010683af0269c1ed08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Set as pending">71a7282207d30010683af0269c1ed023</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">eda7282207d30010683af0269c1ed015</condition>
-        <from display_value="Approve Request">a5a7e02207d30010683af0269c1ed0fd</from>
+        <condition display_value="Always">e054803007e30010683af0269c1ed089</condition>
+        <from display_value="Mark as rejected">6c54803007e30010683af0269c1ed088</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>7da7282207d30010683af0269c1ed029</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a454803007e30010683af0269c1ed090</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Mark as approved">31a7282207d30010683af0269c1ed01d</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Work in Progress">b5a7282207d30010683af0269c1ed022</condition>
-        <from display_value="Task Status">35a7282207d30010683af0269c1ed021</from>
+        <condition display_value="Yes">d854803007e30010683af0269c1ed013</condition>
+        <from display_value="Has approval group">5c54803007e30010683af0269c1ed012</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b1a7282207d30010683af0269c1ed028</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed08d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Approval Status">bda7282207d30010683af0269c1ed023</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Approve Request">2c54803007e30010683af0269c1ed019</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Closed Skipped">b9a7282207d30010683af0269c1ed022</condition>
-        <from display_value="Task Status">35a7282207d30010683af0269c1ed021</from>
+        <condition display_value="Always">ac54803007e30010683af0269c1ed083</condition>
+        <from display_value="Mark as requested">2854803007e30010683af0269c1ed083</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b9a7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>a854803007e30010683af0269c1ed08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Set as pending">ec54803007e30010683af0269c1ed018</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">69a7282207d30010683af0269c1ed018</condition>
-        <from display_value="Manual approval">ada7282207d30010683af0269c1ed017</from>
+        <condition display_value="Approved">a454803007e30010683af0269c1ed082</condition>
+        <from display_value="Manual approval">e454803007e30010683af0269c1ed081</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>b9a7282207d30010683af0269c1ed02b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Mark as approved">31a7282207d30010683af0269c1ed01d</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Mark as approved">9454803007e30010683af0269c1ed014</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Pending">39a7282207d30010683af0269c1ed022</condition>
-        <from display_value="Task Status">35a7282207d30010683af0269c1ed021</from>
+        <condition display_value="Always">6454803007e30010683af0269c1ed015</condition>
+        <from display_value="Request already approved">a054803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ac54803007e30010683af0269c1ed08e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Approval Status">bda7282207d30010683af0269c1ed023</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">e5a7282207d30010683af0269c1ed017</condition>
-        <from display_value="Mark as rejected">61a7282207d30010683af0269c1ed017</from>
+        <condition display_value="Closed Incomplete">2854803007e30010683af0269c1ed016</condition>
+        <from display_value="Task Status">2c54803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed028</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">3da7282207d30010683af0269c1ed01e</condition>
-        <from display_value="Mark as requested">b5a7282207d30010683af0269c1ed01e</from>
+        <condition display_value="Rejected">a854803007e30010683af0269c1ed086</condition>
+        <from display_value="Approval Status">ac54803007e30010683af0269c1ed085</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>bda7282207d30010683af0269c1ed02a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed08e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Set as pending">71a7282207d30010683af0269c1ed023</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Rejected">a454803007e30010683af0269c1ed087</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not Yet Requested">b9a7282207d30010683af0269c1ed01b</condition>
-        <from display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</from>
+        <condition display_value="Rejected">6054803007e30010683af0269c1ed085</condition>
+        <from display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed027</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e054803007e30010683af0269c1ed090</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Mark as rejected">f5a7282207d30010683af0269c1ed020</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Already rejected">ac54803007e30010683af0269c1ed082</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">79a7282207d30010683af0269c1ed01f</condition>
-        <from display_value="Disregard approvals">f1a7282207d30010683af0269c1ed01f</from>
+        <condition display_value="Closed Skipped">a054803007e30010683af0269c1ed017</condition>
+        <from display_value="Task Status">2c54803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed02a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed08c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">31a7282207d30010683af0269c1ed025</condition>
-        <from display_value="Approval Status">bda7282207d30010683af0269c1ed023</from>
+        <condition display_value="Always">6454803007e30010683af0269c1ed019</condition>
+        <from display_value="Set as pending">ec54803007e30010683af0269c1ed018</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f1a7282207d30010683af0269c1ed02b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed08d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Rejected">e5a7282207d30010683af0269c1ed016</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Calculate approval group">a854803007e30010683af0269c1ed089</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not Yet Requested">b9a7282207d30010683af0269c1ed024</condition>
-        <from display_value="Approval Status">bda7282207d30010683af0269c1ed023</from>
+        <condition display_value="Approved">ec54803007e30010683af0269c1ed080</condition>
+        <from display_value="Approve Request">2c54803007e30010683af0269c1ed019</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f5a7282207d30010683af0269c1ed02b</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e454803007e30010683af0269c1ed08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Mark as requested">b5a7282207d30010683af0269c1ed01e</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Mark as approved">9454803007e30010683af0269c1ed014</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">a9a7282207d30010683af0269c1ed016</condition>
-        <from display_value="Rejected">e5a7282207d30010683af0269c1ed016</from>
+        <condition display_value="Always">2c54803007e30010683af0269c1ed014</condition>
+        <from display_value="Mark as approved">9454803007e30010683af0269c1ed014</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f9a7282207d30010683af0269c1ed028</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>e854803007e30010683af0269c1ed08e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">79a7282207d30010683af0269c1ed01c</condition>
-        <from display_value="Already rejected">b5a7282207d30010683af0269c1ed01c</from>
+        <condition display_value="Closed Complete">ac54803007e30010683af0269c1ed016</condition>
+        <from display_value="Task Status">2c54803007e30010683af0269c1ed015</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>f9a7282207d30010683af0269c1ed02a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed08b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="End">fda7282207d30010683af0269c1ed01f</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="End">a454803007e30010683af0269c1ed08a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">31a7282207d30010683af0269c1ed01c</condition>
-        <from display_value="Verify Approval canceled">bda7282207d30010683af0269c1ed01a</from>
+        <condition display_value="Approved">2054803007e30010683af0269c1ed087</condition>
+        <from display_value="Approval Status">ac54803007e30010683af0269c1ed085</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>fda7282207d30010683af0269c1ed026</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed08d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <to display_value="Already rejected">b5a7282207d30010683af0269c1ed01c</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Request already approved">a054803007e30010683af0269c1ed015</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">bda7282207d30010683af0269c1ed019</condition>
-        <from display_value="Has approval group">21a7282207d30010683af0269c1ed019</from>
+        <condition display_value="Requested">e054803007e30010683af0269c1ed085</condition>
+        <from display_value="Verify Approval canceled">6454803007e30010683af0269c1ed084</from>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:41:07</sys_created_on>
-        <sys_id>fdc7602207d30010683af0269c1ed08a</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>ec54803007e30010683af0269c1ed08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:41:07</sys_updated_on>
-        <to display_value="Manual approval">ada7282207d30010683af0269c1ed017</to>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <to display_value="Disregard approvals">2054803007e30010683af0269c1ed088</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>erwinel_da</sys_created_by>
-        <sys_created_on>2020-03-04 21:40:34</sys_created_on>
-        <sys_id>25a7e02207d30010683af0269c1ed0fb</sys_id>
+        <sys_created_on>2020-03-11 18:52:32</sys_created_on>
+        <sys_id>d854803007e30010683af0269c1ed010</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-04 21:40:34</sys_updated_on>
-        <workflow_version display_value="USASOC SC Location Based Approval">a1a7e02207d30010683af0269c1ed0fb</workflow_version>
+        <sys_updated_on>2020-03-11 18:52:32</sys_updated_on>
+        <workflow_version display_value="USASOC SC Location Based Approval">5854803007e30010683af0269c1ed010</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=2b76b24a07130010683af0269c1ed0d0^sys_id!=a1a7e02207d30010683af0269c1ed0fb">
+    <wf_workflow_version action="update_multiple" query="workflow=2b76b24a07130010683af0269c1ed0d0^sys_id!=5854803007e30010683af0269c1ed010">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
